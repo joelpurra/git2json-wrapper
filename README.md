@@ -2,6 +2,14 @@
 
 A simple wrapper around `git2json`: convert git logs to JSON for easy analysis.
 
+
+
+> ## ⚠️ This project has been archived
+>
+> No future updates are planned. Feel free to continue using it, but expect no support.
+
+
+
 Local dependency installation is automatically performed using `virtualenv`, `pip`, and `requirements.txt`.
 
 
