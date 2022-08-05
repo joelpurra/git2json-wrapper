@@ -23,7 +23,7 @@ GIT2JSON_VENV="${BASH_SOURCE%/*}/.git2jsonmd-virtualenv"
 if [[ "$NEEDS_INSTALLATION" == "true" ]];
 then
 	# Create new virtualenv directory.
-	virtualenv --python=python3 --no-site-packages "${GIT2JSON_VENV}"
+	virtualenv --python=python3 "${GIT2JSON_VENV}"
 
 	# Just an empty line to group output lines.
 	echo
